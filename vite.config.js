@@ -8,7 +8,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/api': {
-        target: 'https://backend-lwao.onrender.com:3000',
+        target: 'https://backend-lwao.onrender.com',
         changeOrigin: true,
       },
     },
