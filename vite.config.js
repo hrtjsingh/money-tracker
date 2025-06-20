@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(),tailwindcss(),],
   server: {
-    port: 5173,
+    port: 3000,
     proxy: {
       '/api': {
         target: 'https://backend-lwao.onrender.com:3000',
